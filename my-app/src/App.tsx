@@ -65,7 +65,7 @@ const App: React.FC = () => {
           type="text"
           value={newTask}
           onChange={(e) => setNewTask(e.target.value)}
-          placeholder="Add a new task..."
+          placeholder="new task..."
         />
         <button onClick={addTask}>Add Task</button>
       </div>
